@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Иван Гуляев](https://up.htmlacademy.ru/htmlcss/19/user/224220).
-* Наставник: `Неизвестно`.
+* Наставник: [Максим Фарига](https://htmlacademy.ru/profile/maximfariga).
 
 ---
 
