@@ -7,17 +7,126 @@
   <body>
 
   <header class="main-header">
-    <nav class="main-nav">
-      <img src="img/logo.svg" width="160" height="65" alt='Логотип дизайн-студии "Нёрдс"'>
-      <ul class="site-nav">
-        <li><a href="#">Студия</a></li>
-        <li><a href="#">Клиенты</a></li>
-        <li><a href="#">Магазин</a></li>
-        <li><a href="#">Контакты</a></li>
-      </ul>
-      <span class="shopping-list"><a href="#">Корзина</a></span>
-    </nav>
+      <nav class="main-nav">
+          <a class="header-logo"><img src="img/logo.svg" width="160" height="65" alt='Логотип дизайн-студии "Нёрдс"'></a>
+          <ul class="site-nav">
+              <li><a href="#">Студия</a></li>
+              <li><a href="#">Клиенты</a></li>
+              <li><a href="#">Магазин</a></li>
+              <li><a href="#">Контакты</a></li>
+          </ul>
+          <a class="shopping-list" href="#">Корзина</a>
+      </nav>
   </header>
+
+  <main class="container">
+      <h1 class="visually-hidden">Дизайн-студия "Нёрдс"</h1>
+      <section class="features">
+          <h2 class="visually-hidden">Стиль работы</h2>
+          <ul class="features-list">
+              <li class="feateres-item"><h3>Долго, дорого и скрупулезно.</h3>
+                  <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+                  <a class="button" href="#">УЗНАТЬ БОЛЬШЕ</a>
+              </li>
+              <li class="feateres-item"><h3>Любим математику как никто другой.</h3>
+                  <p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
+                  <a class="button" href="#">УЗНАТЬ БОЛЬШЕ</a>
+              </li>
+              <li class="feateres-item"><h3>Только ночь, только хардкор.</h3>
+                  <p>Работать днем как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
+                  <a class="button" href="#">УЗНАТЬ БОЛЬШЕ</a>
+              </li>
+          </ul>
+          <!--Тут будут radiobutton-->
+      </section>
+      <section class="works">
+          <h2 class="visually-hidden">Категории выполняемых работ</h2>
+          <ul class="works-list">
+              <li class="works-item"><h3>ВЕБ-САЙТЫ</h3>
+                  <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+                  <a class="button" href="#">ЗАКАЗАТь</a>
+              </li>
+              <li class="works-item"><h3>ПРИЛОЖЕНИЯ</h3>
+                  <p>Покорите топ-10 приложений в AppStore GooglePlay</p>
+                  <a class="button" href="#">ЗАКАЗАТЬ</a>
+              </li>
+              <li class="works-item"><h3>ПРЕЗЕНТАЦИИ</h3>
+                  <p>Вы даже не подозреваете, насколько вы изумительны!</p>
+                  <a class="button" href="#">ЗАКАЗАТЬ</a>
+              </li>
+          </ul>
+      </section>
+      <section class="about-as">
+          <h2 class="visually-hidden">О нас</h2>
+          <b>Мы - маленька, но гордая дизайн-студия из Краснодара.</b>
+          <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботоы.</p>
+          <div class="performed">
+              <b>ВЫПОЛНЯЕМ ЗАКАЗЫ НА РАЗРАБОТКУ:</b>
+              <ul class="performed-list">
+                  <li class="performed-item">Веб-сайтов любой сложности</li>
+                  <li class="performed-item">Мобильных приложений для iOS и Android</li>
+                  <li class="performed-item">Слайд-шоу и видео для корпоративных презентаций</li>
+              </ul>
+          </div>
+          <div class="principles">
+              <b>С 2004 ГОДА ЛЮБИМ ТОЧНОСТЬ ВО ВСЕМ:</b>
+              <ul class="principles-list">
+                  <li class="principles-item"><b>146</b><span>%</span>
+                      <p>Уровень самоотдачи</p>
+                  </li>
+                  <li class="principles-item"><b>100</b><span>%</span>
+                      <p>Соблюдение сроков</p>
+                  </li>
+                  <li class="principles-item"><b>50</b><span>%</span>
+                      <p>Минимальная предоплата</p>
+                  </li>
+              </ul>
+          </div>
+      </section>
+      <section class="project">
+          <h2 class="visually-hidden">Наши работы</h2>
+          <ul class="project-list">
+              <li class="project-item"><a class="project-logo" href="#"><img src="img/logo1.svg" width="209" height="87" alt="Логотип сайта html academy"></a></li>
+              <li class="project-item"><a class="project-logo" href="#"><img src="img/logo2.svg" width="209" height="87" alt="Логотип сайта Barbershop Borodinski"></a></li>
+              <li class="project-item"><a class="project-logo" href="#"><img src="img/logo3.svg" width="209" height="87" alt="Логотип сайта PINK"></a></li>
+              <li class="project-item"><a class="project-logo" href="#"><img src="img/logo4.svg" width="209" height="87" alt="Логотип сайта MISHKA"></a></li>
+          </ul>
+      </section>
+  </main>
+
+  <footer class="main-footer">
+      <div class="footer-contacts">
+          <div class="contacts">
+              <b>NERDS DISIGN STUDIO</b>
+              <p>191186, Санкт-Петербург,<br>
+                  ул. Б.Конюшенная, д. 19/8</p>
+              <p>тел. +7(812)275-75-75</p>
+              <a class="button" href="#">НАПИШИТЕ НАМ</a>
+          </div>
+      </div>
+      <div class="footer-social">
+          <ul class="social-list">
+              <li class="social-item"><a class="social-button" href="#">Вконтакте</a></li>
+              <li class="social-item"><a class="social-button" href="#">Фейсбук</a></li>
+              <li class="social-item"><a class="social-button" href="#">Инстаграмм</a></li>
+          </ul>
+          <b>Давайте дружить, это выгодно!</b>
+          <p>Скидка 10% для друзей из социальных сетей.</p>
+      </div>
+  </footer>
+
+  <section class="modal-feedback">
+      <h2 class="visually-hidden">Форма обратной связи</h2>
+      <b>Напишите нам</b>
+      <p>Ваше имя:</p>
+      <!--Форма для ввода имени-->
+      <p>Ваш email:</p>
+      <!--Форма для ввода email-->
+      <p>Текст письма:</p>
+      <!--Форма для ввода текста в свободной форме-->
+      <!--Кнопка для отправки данных-->
+      <span class="modal-close">x</span>
+  </section>
 
   </body>
 </html>
